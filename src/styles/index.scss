@@ -1,3 +1,51 @@
-/* 
-    General Styles
-*/
+// AQUI ESTA LA TRANSICION DE ANIMACION DE LAS TARJETAS, ADEMAS EL TAMAÑO DE ELLAS
+body{
+    background-image: url(https://i.pinimg.com/originals/84/42/f8/8442f8b8b308fb7cbe8fdf8467ed0a69.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.card{
+  transition: transform .2s;
+  width: 18rem;
+  height: 18rem;
+}
+// ESTE ES EL EFECTO DE AUMENTO DE ESCALA CUANDO PASAS EL CURSOS SOBRE LA TARJETA
+.card:hover {
+  transform: scale(1.1);
+}
+// AQUI ESTA LA IMAGEN DE LA CARD PLANETA
+.planeta img{
+display: inline-block;
+padding-bottom: 25px;
+padding-right: 15px;
+}
+// ESTE ES EL TEXTO DENTRO DE LA CARD PLANETA
+.planeta h1{
+display: inline-block;
+}
+// AQUI ESTA LA IMAGEN DE LA CARD PERSONAJES
+.character img{
+display: inline-block;
+padding-bottom: 25px;
+padding-right: 15px;
+}
+// ESTE ES EL TEXTO DENTRO DE LA CARD PERSONAJES
+.character h1{
+display: inline-block;
+}
+// COLOR DE TEXTO PERSONAJE
+.character{
+    color: rgba(255, 255, 255, 0.822);
+    text-shadow: 2px 2px 8px #fa9600;
+}
+// COLOR DE TEXTO PLANETAS
+.planeta{
+    color: rgba(255, 255, 255, 0.822);
+    text-shadow: 2px 2px 8px #fa9600;
+}
+
+.text_chart{
+    color:white;
+}
